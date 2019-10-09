@@ -30,7 +30,7 @@ def game():
 
 def move():
     while True:
-        print
+        print()
         player = raw_input("Rock = 1\nPaper = 2\nScissors = 3 \n\nMake a move:- ")
         try:
             player = int(player)
@@ -57,7 +57,7 @@ def result(player, computer):
             print("Your victory has been assured")
             player_score += 1
         else:
-            print("The computer laughs as you realize ypu have been defeated")
+            print("The computer laughs as you realize you have been defeated")
             computer_score += 1
 
 
